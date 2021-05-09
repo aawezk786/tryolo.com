@@ -1,0 +1,137 @@
+.mobilebanner {
+  width: 661px;
+  height: 556px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #FFFDE7 36.77%, rgba(255, 253, 231, 0) 100%);
+}
+
+.mobilemenred {
+  display: grid;
+  place-items: center;
+  width: 150.79px;
+  height: 151.94px;
+  background: #fa8181;
+  border-radius: 33.5161px;
+}
+
+.mobilemengreen {
+  display: grid;
+  place-items: center;
+  width: 150.79px;
+  height: 151.94px;
+  background: #cbf2e2;
+  border-radius: 33.5161px;
+}
+
+.mobilebackdown {
+  background: linear-gradient(180deg, #fffde7 36.77%, rgba(255, 253, 231, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  min-height: 900px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  margin-top: -600px;
+}
+
+.namemobile {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 112% */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #454545;
+}
+
+.mobilebackdown {
+  background: linear-gradient(180deg, #fffde7 36.77%, rgba(255, 253, 231, 0) 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  min-height: 1000px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  margin-top: -720px;
+}
+
+.mobilewedo {
+  font-family: Poppins-SemiBold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35.7026px;
+  line-height: 50px;
+  /* or 111% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.mobilemeet {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.4081px;
+  line-height: 10px;
+  letter-spacing: 0.01em;
+  color: #454545;
+}
+
+.cardtextmobile{
+  font-family: Apercu;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+.madeinlovemobile {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.69px;
+  line-height: 156.9%;
+  /* or 56px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.reachmobile {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.33px;
+  line-height: 18px;
+  /* or 63% */
+  text-align: center;
+  color: #000000;
+}
+
+.addressmobile {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.43px;
+  line-height: 156.9%;
+  /* or 35px */
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.copyrightmobile {
+  font-family: Apercu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.76px;
+  line-height: 18px;
+  /* identical to box height, or 104% */
+  text-align: right;
+  color: #000000;
+}

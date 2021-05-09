@@ -1,0 +1,47 @@
+.desktopbanner {
+    height: 396px;
+    width: 1275px;
+    border-radius: 45px;
+    background: #fffde7;
+    margin-top: -30px;
+}
+
+.desktophalfcircle {
+    margin-top: -115px !important;
+}
+.desktopmeet {
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.4081px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #454545;
+}
+
+.desktopmenred {
+    width: 300.3px;
+    height: 347.23px;
+    background: #fa8181;
+    border-radius: 33.5161px;
+    z-index: 2;
+    position: absolute;
+}
+
+.desktopmengreen {
+    z-index: 2;
+    position: absolute;
+    width: 300.3px;
+    height: 347.23px;
+    background: #cbf2e2;
+    border-radius: 33.5161px;
+}
+.desktopbackdown {
+    background: linear-gradient(180deg, #fffde7 36.77%, rgba(255, 253, 231, 0) 100%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    min-height: 900px;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    margin-top: -600px;
+}
